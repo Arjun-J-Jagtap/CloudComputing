@@ -1,2 +1,2 @@
 Hello
-docker swarm join --token SWMTKN-1-1d63ak6yr2xl6e84rh0osgqrmzr5or8hac26htwhee60geh05p-2gut4lto3yzlz4hh42bqysmrn 10.8.1.75:2377
+    docker swarm join --token SWMTKN-1-1y5aaf4syx1zosj669thfc7mitv0fq57f7n3pbiromrvak6ecj-ba1rsoc3m4mq7rnqzcsa9igpv 10.8.1.75:2377
