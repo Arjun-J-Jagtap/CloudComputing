@@ -1,0 +1,31 @@
+version: "3.8"
+
+services:
+  pi_service_1:
+    image: pi-service
+    environment:
+      - PI_SHARD=shard_01.txt
+    ports:
+      - "5001:5000"
+
+  pi_service_2:
+    image: pi-service
+    environment:
+      - PI_SHARD=shard_02.txt
+    ports:
+      - "5002:5000"
+
+  pi_service_3:
+    image: pi-service
+    environment:
+      - PI_SHARD=shard_03.txt
+    ports:
+      - "5003:5000"
+
+
+  pi_service_4:
+    image: pi-service
+    environment:
+      - PI_SHARD=shard_04.txt
+    ports:
+      - "5004:5000"
